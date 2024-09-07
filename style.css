@@ -1,0 +1,213 @@
+/* style.css */
+#personal-info {
+    text-align: center;
+}
+
+#profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the element without distortion */
+    margin-bottom: 20px;
+}
+
+#name {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#contact-details {
+    margin-top: 10px;
+}
+
+#contact-details p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+    color: #333;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+h1, h2, h3 {
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #007bff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    transition: background 0.3s, border-color 0.3s;
+    animation: fieldsetFadeIn 0.5s ease-out;
+}
+
+@keyframes fieldsetFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+fieldset:hover {
+    background: #f0f0f0;
+    border-color: #b3b3b3;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+    color: #555;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+    animation: buttonFadeIn 0.5s ease-out;
+}
+
+@keyframes buttonFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#resume-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    animation: resumeContentFadeIn 0.5s ease-out;
+}
+
+@keyframes resumeContentFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#resume-content h3 {
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+#skills-list li {
+    padding: 10px 15px;
+    margin: 6px 0;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#skills-list li:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+#skills-list li:active {
+    transform: translateY(0);
+}
+
+#toggle-skills-btn {
+    background-color: #28a745;
+}
+
+#toggle-skills-btn:hover {
+    background-color: #218838;
+}
+
+button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+/* style.css */
+
+#profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the element without distortion */
+    margin-bottom: 20px;
+}
+
